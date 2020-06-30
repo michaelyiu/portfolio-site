@@ -28,7 +28,7 @@ const Projects = () => {
 										<li>Netlify</li>
 									</ul>
 									<div className="flex-container button-container">
-										<a href="http://http://devshub.netlify.com/">Check it out!</a>
+										<a href="https://http://devshub.netlify.com/">Check it out!</a>
 										<a href="https://github.com/michaelyiu/devshub-server-gql">Backend Repo</a>
 										<a href="https://github.com/michaelyiu/devshub-client-gql">Frontend Repo</a>
 									</div>
@@ -51,7 +51,7 @@ const Projects = () => {
 									</ul>
 
 									<div className="flex-container button-container">
-										<a href="http://devshub.herokuapp.com/">Check it out!</a>
+										<a href="https://devshub.herokuapp.com/">Check it out!</a>
 										<a href="https://github.com/michaelyiu/devshub">GitHub Repo</a>
 									</div>
 								</div>
