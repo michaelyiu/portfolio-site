@@ -126,7 +126,7 @@ const Projects = () => {
 
 									</ul>
 									<div className="flex-container button-container">
-										<a href="./projects/soundrize/index.html">Check it out!</a>
+										<a href="https://vigilant-lumiere-90676d.netlify.app/">Check it out!</a>
 										<a href="https://github.com/michaelyiu/memory-game">GitHub Repo</a>
 									</div>
 
