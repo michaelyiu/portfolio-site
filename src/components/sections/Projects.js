@@ -11,7 +11,7 @@ const Projects = () => {
 
 							<div className="flex-proj-desc flex-container flex-column justify-center">
 								<div className="description aos-animate" data-aos="zoom-out-up" data-aos-duration="1600">
-									<h3>MYPhones</h3>
+									<h3>MYPhones (WIP)</h3>
 									<p>An ecommerce site for phones</p>
 									<ul className="tech">
 										<li>React</li>
