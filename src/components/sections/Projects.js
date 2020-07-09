@@ -1,14 +1,40 @@
 import React from 'react';
-import AOS from 'aos';
 
 const Projects = () => {
-	AOS.init();
 	return (
 		<section id="projects" className="projects">
 			<div className="wrapper">
 				<div className="flex-container flex-column">
 					<h2 data-aos="fade-down" data-aos-duration="1200">Selected Work</h2>
 					<div className="flex-container project-list">
+						<div className="flex-container inverse-project-row">
+
+							<div className="flex-proj-desc flex-container flex-column justify-center">
+								<div className="description aos-animate" data-aos="zoom-out-up" data-aos-duration="1600">
+									<h3>MYPhones</h3>
+									<p>An ecommerce site for phones</p>
+									<ul className="tech">
+										<li>React</li>
+										<li>React Hooks</li>
+										<li>Material-UI</li>
+										<li>Stripe</li>
+										<li>Apollo</li>
+										<li>GraphQL</li>
+										<li>Mongo</li>
+										<li>Node.js</li>
+										<li>Lambda</li>
+									</ul>
+									<div className="flex-container button-container">
+										<a href="https://myiu-ecommerce-client.netlify.app/">Check it out!</a>
+										<a href="https://github.com/michaelyiu/ecommerce-backend">Backend Repo</a>
+										<a href="https://github.com/michaelyiu/ecommerce-client">Frontend Repo</a>
+									</div>
+								</div>
+							</div>
+							<div className="project aos-animate" data-aos="zoom-out-up" data-aos-duration="1600">
+								<img src="images/MYPhones.png" alt="" />
+							</div>
+						</div>
 						<div className="flex-container project-row">
 							<div className="project aos-animate" data-aos="zoom-out-up" data-aos-duration="1600">
 								<img src="images/devshubs.png" alt="" />
@@ -25,7 +51,6 @@ const Projects = () => {
 										<li>Node.js</li>
 										<li>Apollo Client</li>
 										<li>Lambda</li>
-										<li>Netlify</li>
 									</ul>
 									<div className="flex-container button-container">
 										<a href="https://http://devshub.netlify.com/">Check it out!</a>
